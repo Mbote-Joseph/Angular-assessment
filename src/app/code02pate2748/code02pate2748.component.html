@@ -1,0 +1,5 @@
+<h3>{{ details.First63903 }} {{ details.Last63903 }} Code Check</h3>
+
+<input type="text" [(ngModel)]="num" />
+<h5 *ngIf="num >= 500">{{ num }} is in the Upper group</h5>
+<h5 *ngIf="num < 500">{{ num }} is in the group below 500</h5>
